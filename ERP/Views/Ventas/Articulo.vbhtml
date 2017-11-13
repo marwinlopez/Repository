@@ -85,7 +85,7 @@ End Code
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
-                        <h3 class="box-title"><button class="btn btn-success" type="submit">@Html.ActionLink("Nuevo Artículo", "NuevoArticulo", "Ventas", New With {.style = "color:white;"})</button></h3>
+                        <h3 class="box-title"><a href='@Url.Action("NuevoArticulo", "Ventas")' class="btn btn-success">Nuevo Artículo</a></h3>
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">

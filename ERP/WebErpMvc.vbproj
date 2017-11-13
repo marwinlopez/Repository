@@ -558,8 +558,13 @@
     <Content Include="Views\Ventas\NuevoArticulo.vbhtml" />
     <Content Include="Views\Ventas\NuevoServicio.vbhtml" />
     <Content Include="Views\Shared\_MenuCliente.vbhtml" />
-    <Content Include="Views\Ventas\_PartialClienteInformacion.vbhtml" />
-    <Content Include="Views\Ventas\_PartialClienteVenta.vbhtml" />
+    <Content Include="Views\Shared\Ventas\_PartialClienteInformacion.vbhtml" />
+    <Content Include="Views\Shared\Ventas\_PartialClienteVenta.vbhtml" />
+    <Content Include="Views\Shared\Articulos\_PartialFicha.vbhtml" />
+    <Content Include="Views\Shared\Articulos\_PartialAtributo.vbhtml" />
+    <Content Include="Views\Shared\Articulos\_PartialSustituto.vbhtml" />
+    <Content Include="Views\Shared\Articulos\_PartialUnidad.vbhtml" />
+    <Content Include="Views\Shared\Articulos\_PartialPropiedades.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

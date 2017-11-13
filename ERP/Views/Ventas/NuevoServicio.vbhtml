@@ -84,8 +84,10 @@ End Code
         <div class="row">
             <div class="col-xs-12">
                 <div class="box box-primary">
-                    <div class="box-header" style="text-align:center; height:60px; width:50%; background:#337ab7; margin-bottom:20px; margin-left: 15px; margin-top: 15px;">
-                        <h5 style="color:#ffffff;">Información</h5>
+                    <div class="box-header">
+                        <div class="" style="width: 100%; background: #ececef; padding:5px 10px; margin-bottom: 30px; border-left: 2px solid #0094ff">
+                            <h4 style="font-weight: bold">Información</h4>
+                        </div>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->

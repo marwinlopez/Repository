@@ -20,24 +20,17 @@ End Code
         <div class="row">
             <div class="col-xs-12">
                 <div class="box box-primary">
-                    <div class="box-header">
-                        <ul class="nav nav-pills nav-justified">
-                            <li class="active"><a data-toggle="tab" href="#informacion"><h5>Información</h5></a></li>
-                            <li><a data-toggle="tab" href="#venta"><h5>Venta</h5></a></li>
-                        </ul>
-                    </div>
-                    <!-- /.box-header -->
                     <!-- form start -->
                     <form role="form" class="form-horizontal">
-                        <div class="box-body" style="height:480px;">
-                            <div class="tab-content">
-                                <div id="informacion" class="tab-pane fade in active">
-                                    @Html.Partial("_PartialClienteInformacion")
-                                </div>
-                                <div id="venta" class="tab-pane fade">
-                                    @Html.Partial("_PartialClienteVenta")
-                                </div>
+                        <div class="box-body">
+                            <div class="" style="width: 100%; background: #ececef; padding:5px 10px; margin-bottom: 30px; border-left: 2px solid #0094ff">
+                                <h4 style="font-weight: bold">Información</h4>
                             </div>
+                            @Html.Partial("~/Views/Shared/Ventas/_PartialClienteInformacion.vbhtml")
+                            <div class="" style="width: 100%; background: #ececef; padding:5px 10px; margin-bottom: 30px; border-left: 2px solid #0094ff">
+                                <h4 style="font-weight: bold">Venta</h4>
+                            </div>
+                            @Html.Partial("~/Views/Shared/Ventas/_PartialClienteVenta.vbhtml")
                         </div>
                         <!-- /.box-body -->
                         <div class="box-footer">
