@@ -449,6 +449,8 @@
     <Content Include="Scripts\app.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\chart\Chart.js" />
+    <Content Include="Scripts\chart\Chart.min.js" />
     <Content Include="Scripts\dataTables.bootstrap.min.js" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.js" />

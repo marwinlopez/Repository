@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERP</title>
     @Styles.Render("~/Content/css")
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="~/Content/DataTables/css/dataTables.bootstrap.min.css" rel="stylesheet" />
 
 </head>
