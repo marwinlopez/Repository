@@ -131,7 +131,7 @@ End Code
                         <div class="row">
                             <div class="col-md-8">
                                 <p class="text-center">
-                                    <strong>Ventas: 1 Junio, 2017 - 30 Julio, 2017</strong>
+                                    <strong>Ventas: 1 Enero, 2017 - 30 Julio, 2017</strong>
                                 </p>
                                 <div class="chart">
                                     <!-- Sales Chart Canvas -->
