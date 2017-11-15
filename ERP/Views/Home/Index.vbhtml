@@ -236,6 +236,7 @@ End Code
 
 @section scripts
 <script src="~/Scripts/chart/Chart.min.js"></script>
+<script src="~/Scripts/menu.js"></script>
     <script>
         $(function () {
             // Get context with jQuery - using jQuery's .get() method.
@@ -310,7 +311,10 @@ End Code
 
             //Create the line chart
             salesChart.Line(salesChartData, salesChartOptions);
-        })
+        });
+
+
+
     </script>
     
 End Section

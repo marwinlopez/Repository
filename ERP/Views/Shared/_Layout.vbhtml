@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -32,14 +33,14 @@
                 <!-- Navbar Right Menu -->
                 <div class="navbar-custom-menu navbar-left">
                     <ul class="nav navbar-nav">
-                        <li><a href='@Url.Action("Index", "Home")'><i class="glyphicon glyphicon-home"></i> Inicio</a></li>
-                        <li>@Html.ActionLink("Ventas", "Index", "Ventas")</li>
-                        <li>@Html.ActionLink("Compras", "Index", "Home")</li>
-                        <li>@Html.ActionLink("Inventario", "Index", "Home")</li>
-                        <li>@Html.ActionLink("Tesorería", "Index", "Home")</li>
-                        <li>@Html.ActionLink("Nómina", "Index", "Home")</li>
-                        <li>@Html.ActionLink("Contabilidad", "Index", "Home")</li>
-                        <li>@Html.ActionLink("Configuración", "Index", "Home")</li>
+                        <li id="home"><a href='@Url.Action("Index", "Home")'><i class="glyphicon glyphicon-home"></i> Inicio</a></li>
+                        <li id="ventas">@Html.ActionLink("Ventas", "Index", "Ventas")</li>
+                        <li id="compras">@Html.ActionLink("Compras", "Index", "Home")</li>
+                        <li id="inventario">@Html.ActionLink("Inventario", "Index", "Home")</li>
+                        <li id="tesoreria">@Html.ActionLink("Tesorería", "Index", "Home")</li>
+                        <li id="nomina">@Html.ActionLink("Nómina", "Index", "Home")</li>
+                        <li id="contabilidad">@Html.ActionLink("Contabilidad", "Index", "Home")</li>
+                        <li id="configuracion">@Html.ActionLink("Configuración", "Index", "Home")</li>
                     </ul>
                 </div>
                 <div class="navbar-custom-menu">
@@ -99,7 +100,8 @@
         <footer class="main-footer">
             <!-- To the right -->
             <div class="pull-right hidden-xs">
-                Anything you want
+                
+                 Anything you want
             </div>
             <!-- Default to the left -->
             <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.

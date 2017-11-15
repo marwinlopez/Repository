@@ -3,7 +3,7 @@
     Layout = "~/Views/Shared/_Layout.vbhtml"
 End Code
 <!-- Left side column. contains the logo and sidebar -->
-@Html.Partial("~/Views/Shared/_MenuCliente.vbhtml")
+@Html.Partial("~/Views/Shared/_MenuVenta.vbhtml")
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper" style="margin-top: 50px">
     <!-- Content Header (Page header) -->
@@ -45,6 +45,7 @@ End Code
 </div>
 <!-- /.content-wrapper -->
 @Section scripts
+    <script src="~/Scripts/menu.js"></script>
     <script>
         $(document).ready(function () {
             $('.select2').select2();

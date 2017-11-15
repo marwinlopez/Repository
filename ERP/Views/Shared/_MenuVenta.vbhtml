@@ -16,7 +16,7 @@
         <ul class="sidebar-menu">
             <li class="header">Menú</li>
             <!-- Optionally, you can add icons to the links -->
-            <li class="treeview">
+            <li class="treeview cliente-producto">
                 <a href="">
                     <span>Clientes y Productos</span>
                     <span class="pull-right-container">
@@ -24,9 +24,9 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href='@Url.Action("Articulo", "Ventas")'>Artículos</a></li>
-                    <li><a href='@Url.Action("Servicio", "Ventas")'>Servicios</a></li>
-                    <li><a href='@Url.Action("Cliente", "Ventas")'>Clientes</a></li>
+                    <li class="articulo"><a href='@Url.Action("Articulo", "Ventas")'>Artículos</a></li>
+                    <li class="servicio"><a href='@Url.Action("Servicio", "Ventas")'>Servicios</a></li>
+                    <li class="cliente"><a href='@Url.Action("Cliente", "Ventas")'>Clientes</a></li>
                 </ul>
             </li>
             <li class="treeview">

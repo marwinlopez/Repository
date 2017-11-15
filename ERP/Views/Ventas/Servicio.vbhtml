@@ -111,6 +111,9 @@ End Code
 @section scripts
     <script src="~/Scripts/DataTables/jquery.dataTables.min.js"></script>
     <script src="~/Scripts/DataTables/dataTables.bootstrap.min.js"></script>
+
+    <script src="~/Scripts/menu.js"></script>
+
     <script>
     $('#example2').DataTable({
         "ajax": {
@@ -154,5 +157,7 @@ End Code
             }
         }
     });
-    </script>
+        
+</script>
+
 End Section
